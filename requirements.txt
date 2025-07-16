@@ -1,11 +1,12 @@
 streamlit
 pandas
 numpy
-openai-whisper
 librosa
-streamlit-mic-recorder
-google-generativeai
+#streamlit-mic-recorder
+#google-generativeai
 matplotlib
 plotly
 protobuf==3.20.3
 seaborn
+# openai-whisper se comenta para evitar conflicto con llvmlite y torch
+# Puedes probarlo localmente en vez de Streamlit Cloud por ahora
