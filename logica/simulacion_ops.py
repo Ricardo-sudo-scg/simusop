@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-from streamlit_mic_recorder import mic_recorder
 import pandas as pd
 import streamlit as st
 from logica.graficos import mostrar_kpis_operaciones
@@ -249,4 +248,5 @@ def vista_operaciones(params, estado, periodo, T):
                 else:
                     st.error("❌ Debes guardar primero la simulación de esta semana antes de confirmar.")
         else:
+
             st.info("☝️ Solo puedes confirmar si estás en la semana actual.")
